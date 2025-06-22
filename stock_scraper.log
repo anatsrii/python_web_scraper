@@ -1,0 +1,41 @@
+2025-06-21 20:27:35,210 - INFO - Starting data collection for 24CS
+2025-06-21 20:27:35,211 - INFO - Rate limiting: waiting 2 seconds before fetch_factsheet_selenium
+2025-06-21 20:27:37,212 - INFO - Creating Chrome driver (attempt 1)
+2025-06-21 20:27:39,920 - INFO - Fetching factsheet for 24CS
+2025-06-21 20:27:52,899 - WARNING - Page may not have loaded properly for 24CS
+2025-06-21 20:28:01,911 - INFO - Found company name: ∫√‘…—∑ ∑‡«πµ’È ‚ø√Ï §Õπ ·Õπ¥Ï ´—ææ≈“¬ ®”°—¥ (¡À“™π)
+2025-06-21 20:28:02,010 - INFO - Found price: 1.32
+2025-06-21 20:28:02,092 - INFO - Found 105 table entries
+2025-06-21 20:28:02,153 - INFO - Page source length: 710898 characters
+2025-06-21 20:28:02,217 - INFO - Successfully fetched factsheet for 24CS
+2025-06-21 20:28:04,350 - INFO - Rate limiting: waiting 1 seconds before fetch_company_highlights
+2025-06-21 20:28:05,351 - INFO - Fetching company highlights for 24CS
+2025-06-21 20:28:05,351 - INFO - Making request to https://www.set.or.th/th/market/product/stock/quote/24CS/financial-statement/company-highlights (attempt 1)
+2025-06-21 20:28:06,538 - INFO - Successfully fetched highlights for 24CS
+2025-06-21 20:28:06,540 - INFO - Rate limiting: waiting 1 seconds before fetch_rights_benefits
+2025-06-21 20:28:07,542 - INFO - Fetching rights & benefits for 24CS
+2025-06-21 20:28:07,542 - INFO - Making request to https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial (attempt 1)
+2025-06-21 20:28:08,023 - WARNING - Request attempt 1 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial
+2025-06-21 20:28:08,023 - INFO - Waiting 1 seconds before retry...
+2025-06-21 20:28:09,024 - INFO - Making request to https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial (attempt 2)
+2025-06-21 20:28:09,500 - WARNING - Request attempt 2 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial
+2025-06-21 20:28:09,500 - INFO - Waiting 2 seconds before retry...
+2025-06-21 20:28:11,501 - INFO - Making request to https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial (attempt 3)
+2025-06-21 20:28:11,931 - WARNING - Request attempt 3 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial
+2025-06-21 20:28:11,931 - ERROR - All 3 attempts failed for https://www.set.or.th/api/set/company-rights-and-benefits/24CS?type=financial
+2025-06-21 20:28:11,933 - INFO - Rate limiting: waiting 1 seconds before fetch_financial_statements
+2025-06-21 20:28:12,933 - INFO - Fetching financial statements for 24CS
+2025-06-21 20:28:12,933 - INFO - Making request to https://www.set.or.th/th/market/product/stock/quote/24CS/financial-statement/financial-position (attempt 1)
+2025-06-21 20:28:14,046 - INFO - Successfully found 0 financial statement files for 24CS
+2025-06-21 20:28:14,048 - INFO - Rate limiting: waiting 1 seconds before fetch_historical_prices
+2025-06-21 20:28:15,049 - INFO - Fetching historical prices for 24CS
+2025-06-21 20:28:15,049 - INFO - Making request to https://www.set.or.th/api/set/stock/price-chart (attempt 1)
+2025-06-21 20:28:15,558 - WARNING - Request attempt 1 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/stock/price-chart?symbol=24CS&type=month&range=2020-07-17_2025-06-21
+2025-06-21 20:28:15,559 - INFO - Waiting 1 seconds before retry...
+2025-06-21 20:28:16,560 - INFO - Making request to https://www.set.or.th/api/set/stock/price-chart (attempt 2)
+2025-06-21 20:28:17,024 - WARNING - Request attempt 2 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/stock/price-chart?symbol=24CS&type=month&range=2020-07-17_2025-06-21
+2025-06-21 20:28:17,024 - INFO - Waiting 2 seconds before retry...
+2025-06-21 20:28:19,025 - INFO - Making request to https://www.set.or.th/api/set/stock/price-chart (attempt 3)
+2025-06-21 20:28:19,475 - WARNING - Request attempt 3 failed: 403 Client Error: Forbidden for url: https://www.set.or.th/api/set/stock/price-chart?symbol=24CS&type=month&range=2020-07-17_2025-06-21
+2025-06-21 20:28:19,475 - ERROR - All 3 attempts failed for https://www.set.or.th/api/set/stock/price-chart
+2025-06-21 20:28:19,478 - INFO - Successfully saved data for 24CS to data/24CS.json
